@@ -3,20 +3,42 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --input-text-rgb: 15, 15, 15;
+  --background-start-rgb: 19, 25, 25;
+  --background-end-rgb: 19, 25, 25;
+  --color-primary: 255 0 0;
+  --color-primary-end: 255 0 0;
+  --color-secondary: 19 25 25;
+  --color-text_primary: 255 255 255;
+  --color-text_secondary: 255 255 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body .bluesky {
+  --foreground-rgb: 255, 255, 255;
+  --input-text-rgb: 0, 0, 0;
+  --background-start-rgb: 250, 250, 250;
+  --background-end-rgb: 250, 250, 250;
+  --color-primary: 135 193 255;
+  --color-primary-end: 135 193 255;
+  --color-secondary: 245 245 245;
+  --color-text_primary: 25 25 25;
+  --color-text_secondary: 25 25 25;
 }
 
-body {
+body .dark-gold {
+  --foreground-rgb: 255, 255, 255;
+  --input-text-rgb: 15, 15, 15;
+  --background-start-rgb: 18 38 32;
+  --background-end-rgb: 18 38 32;
+  --color-primary: 209 176 0;
+  --color-primary-end: 255 255 0;
+  --color-secondary: 18 38 32;
+  --color-text_primary: 255 255 255;
+  --color-text_secondary: 0 0 0;
+}
+
+body main {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -25,3 +47,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body input,
+body select {
+  color: rgb(var(--input-text-rgb));
+}
+

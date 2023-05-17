@@ -1,0 +1,23 @@
+[
+    {
+        "title": "เกาะพีพี",
+        "subtitle": "เกาะในจังหวัดภูเก็ต",
+        "image": "/assets/place/phuket-1.jpg",
+        "updated_at": "2023-05-17",
+        "content": "หมู่เกาะที่เป็นที่นิยมของจังหวัดภูเก็ต"
+    },
+    {
+        "title": "วัดจีน",
+        "subtitle": "วัดสไตล์จีน",
+        "image": "/assets/place/phuket-2.jpg",
+        "updated_at": "2023-05-17",
+        "content": "เข้าวัดทำบุญ ตามกำลังศรัทธา"
+    },
+    {
+        "title": "สะพานสาระสิน",
+        "subtitle": "แลนด์มาร์คถ่ายรูปใกล้สะพานและทะเล",
+        "image": "/assets/place/phuket-3.jpg",
+        "updated_at": "2023-05-17",
+        "content": "แหล่งช้อปปิ้งใกล้ตลาดปลา"
+    }
+]
